@@ -17,4 +17,3 @@ for i in range(len(item_list)):
     if iterations == 0:
         break
 print(item_list, ' => ', result_list)
-
