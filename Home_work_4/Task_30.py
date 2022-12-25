@@ -4,7 +4,6 @@
 - при $d = 0.001, π = 3.141.$    $10^{-1} ≤ d ≤10^{-10}$"""
 
 import math
-import fractions
 
 print(math.pi)
 with open('data30.txt', 'r', encoding='utf-8') as file:
