@@ -39,3 +39,9 @@ end = perf_counter()
 print('Различных элементов в списке - ', len(set_out))
 print('Множество неповторяющихся элементов последовательности : ', set_out)
 print('Вермя работы - ', round(end - start, 6))
+
+# решение - преподавателем
+import random
+some_list = [random.randint(1, 10) for _ in range(10)]
+some_set = set(some_list)
+print(len(some_set))

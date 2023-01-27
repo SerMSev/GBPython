@@ -12,3 +12,13 @@ for i in range(n):
     qty = input('количество: ')
     fruits[name] = qty
 print('Сгенерированный словарь -', fruits)
+
+# решение преподователя
+
+count = int(input())
+fruit_dict = {}
+for _ in range(count):
+    fruit = input()
+    count_fruit = int(input())
+    fruit_dict[fruit] = count_fruits
+print(fuit_dict)
